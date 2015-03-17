@@ -1,0 +1,10 @@
+﻿.left
+{
+    float: left;
+}
+
+.table
+{
+    border-collapse: collapse;
+    border: 1px solid rgba(0,0,0,0.1);
+}
