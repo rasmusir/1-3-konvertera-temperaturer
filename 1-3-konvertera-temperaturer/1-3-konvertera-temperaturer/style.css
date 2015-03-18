@@ -1,10 +1,50 @@
-﻿.left
+﻿html,body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.left
 {
     float: left;
+    margin: 5px;
+}
+
+.settings
+{
+    width: 200px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 5px;
+}
+
+.settings label
+{
+    color: rgba(0,0,0,0.5);
+}
+
+.settings input[type=submit]
+{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.1);
+    position: relative;
 }
 
 .table
 {
     border-collapse: collapse;
     border: 1px solid rgba(0,0,0,0.1);
+    min-width: 200px;
+    background: #eeffee;
+}
+
+.table tr td
+{
+    text-align: center;
+}
+
+.table tr:nth-child(odd)
+{
+    background: rgba(0,0,0,0.1);
 }
